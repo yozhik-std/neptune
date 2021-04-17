@@ -1,7 +1,7 @@
 body {
     margin: 0;
     line-height: 1.6;
-    background: url('static/uran/bg.png') no-repeat;
+    background: url('static/neptune/bg.png') no-repeat;
     background-size: cover;
     overflow-x: hidden;
 	background-attachment: fixed;
@@ -9,15 +9,15 @@ body {
 
 @font-face {
 	font-family: GothamM;
-	src: url('static/uran/ttf/ofont.ru_Gotham\ Pro.ttf');
+	src: url('static/neptune/ttf/ofont.ru_Gotham\ Pro.ttf');
 }
 @font-face {
 	font-family: GothamR;
-	src: url('static/uran/ttf/14078.ttf');
+	src: url('static/neptune/ttf/14078.ttf');
 }
 @font-face {
 	font-family: Tektur;
-	src: url("static/uran/ttf/Tektur-Regular.ttf");
+	src: url("static/neptune/ttf/Tektur-Regular.ttf");
   }
   
 .menu {
@@ -340,7 +340,7 @@ header {
 	width: 45px;
 	height: 45px;
 	animation: saturn-invert 11s linear 0.3s infinite;
-	background: url("images/uran.png") no-repeat;
+	background: url("images/neptune.png") no-repeat;
 	background-size: cover;
 }
 .uranus::after {
@@ -655,7 +655,7 @@ header {
 
 .tour-title {
 	text-align: center;
-	color: #f8c2fd;
+	color: #5c8fd3;
 	text-transform: uppercase;
 	margin-bottom: 100px;
 
@@ -708,7 +708,7 @@ header {
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
-	background-color: #ba91c0;
+	background-color: #3f608e;
 }
 
 .info-title {
@@ -735,14 +735,19 @@ header {
 	text-align: center;
 	
 }
+.planet-img img {
+	width: 500px;
+	width: 500px;
+}
 
 .section-2{
 	display: flex;
 }
 .planet-img-2 img {
-	width: 500px;
-	height: 500px;
+	width: 650px;
+	height: 270px;
 	margin-right: 200px;
+	padding-top:100px;
 }
 
 
@@ -780,9 +785,10 @@ header {
 		flex-direction: column-reverse;
 	}
 	.planet-img-2 img {
-		width: 400px;
-		height: 400px;
+		width: 650px;
+		height: 270px;
 		margin-right: 0px;
+		padding-top: 0px;
 	}
 	.planet-img {
 		width: 100%;
@@ -805,9 +811,8 @@ header {
 		height: 350px;
 	}
 	.planet-img-2 img {
-		width: 350px;
-		height: 350px;
 		margin-right: 0px;
+		padding-top: 0px;
 	}
 }
 
@@ -828,9 +833,10 @@ header {
 		height: 350px;
 	}
 	.planet-img-2 img {
-		width: 350px;
+		width: 800px;
 		height: 350px;
 		margin-right: 0px;
+		padding-top: 0px;
 	}
 	.planet-img {
 		width: 100%;
@@ -858,9 +864,10 @@ header {
 	}
 
 	.planet-img-2 img {
-		width: 350px;
+		width: 650px;
 		height: 300px;
 		margin-right: 0px;
+		padding-top: 0px;
 	}
 	.planet-img-2 {
 		width: 100%;
@@ -906,9 +913,10 @@ header {
 	}
 
 	.planet-img-2 img {
-		width: 230px;
-		height: 230px;
+		width: 400px;
+		height: 180px;
 		margin-right: 0px;
+		padding-top: 0px;
 	}
 	.planet-img img {
 		width: 230px;
@@ -946,9 +954,10 @@ header {
 		font-size: 30px;
 	}
 	.planet-img-2 img {
-		width: 180px;
-		height: 180px;
+		width: 360px;
+		height: 150px;
 		margin-right: 0px;
+		padding-top: 0px;
 	}
 	.planet-img img {
 		width: 180px;
@@ -995,9 +1004,10 @@ header {
 	}
 
 	.planet-img-2 img {
-		width: 150px;
-		height: 150px;
+		width: 300px;
+		height: 130px;
 		margin-right: 0px;
+		padding-top: 0px;
 	}
 	.planet-img img {
 		width: 150px;
@@ -1021,7 +1031,7 @@ header {
 	text-transform: uppercase;
 	text-decoration: none;
 	font-family: Gotham Pro;
-	color: #f8c2fd;
+	color: #5c8fd3;
 	font-size: 28px;
 	letter-spacing: 8px;
 	text-shadow: 0px 0px 5px black;
